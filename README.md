@@ -88,6 +88,8 @@ For the modeling portion of this case study, I decided to focus on screening thr
 4. SVC
 5. Linear SVC
 6. XGBoost
+7. DecisionTree
+8. Naive Bayes
 
 ### 4.1 Getting the data ready for modeling
 First I created a function that will prepare any data with the similar column structure as our training data into a cleaned data:
@@ -130,6 +132,25 @@ Model Summary: (Ranked in recall / f1 score)
 4. RandomForest (stop for now)
 5. KNN (stop for now)
 6. XGBoostClassifier (stop for now)
+7. DecisionTree (stop for now)
+8. Naive Bayes (stop for now)
 
 ## 5. Hyperparameter Tuning:
+### 5.1 Testing SVC Model performance after Hyperparameter Tuning
+I will use our `ModelEvaluator` class to fit our SVC model on the training dataset
+
+#### 5.1.1 Creating a GridSearchCV on the parameters
+I  first wanted to see the inital scores / metrics for the SVC model using the confusion matrix and the classification report to note the starting metrics to improve from. 
+
+Then I created a grid for the GridSearchCV class. 
+
+### 5.2. Testing Logistic Regression Model performance after Hyperparameter Tuning
+#### 5.2.1 Obtaining the 'Pre-Tuned' metrics of the Logistic Regression
+#### 5.2.2 Hypertuning the Logistic Regression with Grid Search
+
+## 6. Feature Importance and Summary:
+
+Looking at the Feature importances from both the SVC and LogisticRegression we can see that surprisingly `Type_Of_Work` has the highest coefficient, followed by `Residence` and `Ever_Married`. 
+
+**Summary** This project required an optimization of a classifier in order to predict whether a patient has stroke or not. After data manipulation to understand the structure of the data, missing values, class imbalances, necessary encoding, I then experimented with various machine learning models. SVC and LogisticRegression had the highest recall score along with 
 
