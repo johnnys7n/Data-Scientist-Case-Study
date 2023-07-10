@@ -180,8 +180,10 @@ I  first wanted to see the inital scores / metrics for the SVC model using the c
 #### 5.1.2 Hypertuning the SVC Model with Grid Search
 Then I created a grid for the GridSearchCV class. 
 
+*Note that the steps from 5.2 to 5.3 are indentical in technique to the hyperparameter tuning done in 5.1, although different hyperparameters were used for  experimentation.*
+
 ### 5.2. Testing Logistic Regression Model performance after Hyperparameter Tuning
-#### 5.2.1 5.2.1 Re-instantitating the ModelEvaluator on LogisticRegression for recording inital metrics output
+#### 5.2.1 Re-instantitating the ModelEvaluator on LogisticRegression for recording inital metrics output
 #### 5.2.2 Hypertuning the Logistic Regression with Grid Search
 
 ### 5.3 Testing RandomForest Classifier performance after Hyperparameter Tuning
