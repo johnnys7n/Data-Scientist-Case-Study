@@ -1,14 +1,11 @@
-<img src="https://seeklogo.com/images/R/Roche-logo-A80FCF9553-seeklogo.com.png" style="width:120px;height:70px">
-
-# Roche Data Science - Home Study Case
+# Data Science - Study Case
 
 By: Johnny Sin
-Date: July 7-10, 2023
 
 # Outline of the Project
 
 ## 1. Project Information
-Scenario: Working as a Data Scientist and asked by Digital Transformation Managing Partner Simon to start a project that uses data collected on stroke patients over the past few years.
+Scenario: Working as a Data Scientist and asked by Digital Transformation Managing Partner to start a project that uses data collected on stroke patients over the past few years.
 
 **About this Company:**
 * Mission: developing innovative treatments for stroke, with an average of 11K patients helped annually.
